@@ -19,4 +19,16 @@ export const StyledSection = styled.section`
 
 export const InnerDiv = styled.div`
   text-align: left;
+  width: 70%;
+`;
+
+export const FlexDiv = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  ${(props) => {
+    if (props.row)
+      return `
+    flex-direction: row;`;
+  }}
 `;
