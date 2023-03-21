@@ -32,7 +32,7 @@ export const Card = () => {
           </div>
         </div>
         <div>
-          <img src={image} />
+          <StyledImg src={image} />
         </div>
       </StyledDiv>
     </StyledSection>

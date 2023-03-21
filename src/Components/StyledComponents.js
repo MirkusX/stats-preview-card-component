@@ -7,7 +7,7 @@ export const StyledDiv = styled.div`
 `;
 
 export const StyledImg = styled.img`
-  width: 100%;
+  display: block;
 `;
 
 export const StyledSection = styled.section`
