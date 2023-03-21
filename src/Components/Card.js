@@ -1,9 +1,15 @@
 import image from "../Images/image.jpg";
+import {
+  InnerDiv,
+  StyledDiv,
+  StyledImg,
+  StyledSection,
+} from "./StyledComponents";
 
 export const Card = () => {
   return (
-    <section>
-      <div>
+    <StyledSection>
+      <StyledDiv>
         <div>
           <h1>Get insights that help your business grow.</h1>
           <p>
@@ -28,7 +34,7 @@ export const Card = () => {
         <div>
           <img src={image} />
         </div>
-      </div>
-    </section>
+      </StyledDiv>
+    </StyledSection>
   );
 };
