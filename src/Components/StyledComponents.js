@@ -26,9 +26,13 @@ export const FlexDiv = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   ${(props) => {
     if (props.row)
       return `
-    flex-direction: row;`;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    text-align: left;`;
   }}
 `;
