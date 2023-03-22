@@ -25,14 +25,19 @@ export const InnerDiv = styled.div`
 export const FlexDiv = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   ${(props) => {
     if (props.row)
       return `
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 70%;
-    text-align: left;`;
+    text-align: left;
+    gap: 2em;`;
   }}
+`;
+
+export const StyledH1 = styled.h1`
+  font-size: 2rem;
 `;

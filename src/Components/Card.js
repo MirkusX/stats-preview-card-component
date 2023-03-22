@@ -3,6 +3,7 @@ import {
   FlexDiv,
   InnerDiv,
   StyledDiv,
+  StyledH1,
   StyledImg,
   StyledSection,
 } from "./StyledComponents";
@@ -13,7 +14,7 @@ export const Card = () => {
       <StyledDiv>
         <FlexDiv>
           <InnerDiv>
-            <h1>Get insights that help your business grow.</h1>
+            <StyledH1>Get insights that help your business grow.</StyledH1>
             <p>
               Discover the benefits of data analytics and make better decisions
               regarding revenue, customer experience, and overall efficiency.
