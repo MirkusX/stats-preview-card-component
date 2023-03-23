@@ -15,6 +15,7 @@ export const StyledSection = styled.section`
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background-color: #0a0c1b;
 `;
 
 export const InnerDiv = styled.div`
@@ -40,4 +41,17 @@ export const FlexDiv = styled.div`
 
 export const StyledH1 = styled.h1`
   font-size: 2rem;
+  color: #fefffd;
+`;
+
+export const StyledSpan = styled.span`
+  color: #ab5cdb;
+`;
+
+export const NoMarginH2 = styled.h2`
+  margin-bottom: 0;
+`;
+
+export const NoMarginP = styled.p`
+  margin-top: 0;
 `;

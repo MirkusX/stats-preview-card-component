@@ -2,10 +2,13 @@ import image from "../Images/image.jpg";
 import {
   FlexDiv,
   InnerDiv,
+  NoMarginH2,
+  NoMarginP,
   StyledDiv,
   StyledH1,
   StyledImg,
   StyledSection,
+  StyledSpan,
 } from "./StyledComponents";
 
 export const Card = () => {
@@ -14,7 +17,10 @@ export const Card = () => {
       <StyledDiv>
         <FlexDiv>
           <InnerDiv>
-            <StyledH1>Get insights that help your business grow.</StyledH1>
+            <StyledH1>
+              Get <StyledSpan>insights</StyledSpan> that help your business
+              grow.
+            </StyledH1>
             <p>
               Discover the benefits of data analytics and make better decisions
               regarding revenue, customer experience, and overall efficiency.
@@ -22,16 +28,16 @@ export const Card = () => {
           </InnerDiv>
           <FlexDiv row>
             <div>
-              <h2>10k+</h2>
-              <p>COMPANIES</p>
+              <NoMarginH2>10k+</NoMarginH2>
+              <NoMarginP>COMPANIES</NoMarginP>
             </div>
             <div>
-              <h2>314</h2>
-              <p>TEMPLATES</p>
+              <NoMarginH2>314</NoMarginH2>
+              <NoMarginP>TEMPLATES</NoMarginP>
             </div>
             <div>
-              <h2>12M+</h2>
-              <p>QUERIES</p>
+              <NoMarginH2>12M+</NoMarginH2>
+              <NoMarginP>QUERIES</NoMarginP>
             </div>
           </FlexDiv>
         </FlexDiv>
