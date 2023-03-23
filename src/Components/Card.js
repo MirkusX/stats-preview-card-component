@@ -1,12 +1,15 @@
 import image from "../Images/image.jpg";
 import {
   FlexDiv,
+  ImageContainerDiv,
   InnerDiv,
   NoMarginH2,
   NoMarginP,
+  OverlayDiv,
   StyledDiv,
   StyledH1,
   StyledImg,
+  StyledP,
   StyledSection,
   StyledSpan,
 } from "./StyledComponents";
@@ -21,10 +24,10 @@ export const Card = () => {
               Get <StyledSpan>insights</StyledSpan> that help your business
               grow.
             </StyledH1>
-            <p>
+            <StyledP>
               Discover the benefits of data analytics and make better decisions
               regarding revenue, customer experience, and overall efficiency.
-            </p>
+            </StyledP>
           </InnerDiv>
           <FlexDiv row>
             <div>
@@ -41,9 +44,10 @@ export const Card = () => {
             </div>
           </FlexDiv>
         </FlexDiv>
-        <div>
+        <ImageContainerDiv>
           <StyledImg src={image} />
-        </div>
+          <OverlayDiv />
+        </ImageContainerDiv>
       </StyledDiv>
     </StyledSection>
   );

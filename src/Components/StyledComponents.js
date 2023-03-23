@@ -10,6 +10,14 @@ export const StyledImg = styled.img`
   display: block;
 `;
 
+export const OverlayDiv = styled.div`
+  background: rgba(165, 94, 212, 50);
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 0;
+`;
+
 export const StyledSection = styled.section`
   display: flex;
   justify-content: center;
@@ -49,9 +57,19 @@ export const StyledSpan = styled.span`
 `;
 
 export const NoMarginH2 = styled.h2`
-  margin-bottom: 0;
+  margin: 2em 0 0 0;
+  color: white;
 `;
 
 export const NoMarginP = styled.p`
   margin-top: 0;
+  color: white;
+`;
+
+export const StyledP = styled.p`
+  color: #b0aec6;
+`;
+
+export const ImageContainerDiv = styled.div`
+  position: relative;
 `;
