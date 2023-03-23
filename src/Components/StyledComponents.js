@@ -11,10 +11,10 @@ export const StyledImg = styled.img`
 `;
 
 export const OverlayDiv = styled.div`
-  background: rgba(165, 94, 212, 50);
+  background: rgba(165, 94, 212, 0.5);
   position: absolute;
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
   top: 0;
 `;
 
