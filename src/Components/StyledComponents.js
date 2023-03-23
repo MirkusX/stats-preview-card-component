@@ -4,10 +4,20 @@ export const StyledDiv = styled.div`
   display: flex;
   width: 70%;
   background-color: #1c1938;
+  border-radius: 10px;
+  @media (max-width: 811px) {
+    flex-direction: column-reverse;
+    padding-bottom: 1em;
+  }
 `;
 
 export const StyledImg = styled.img`
   display: block;
+  border-radius: 0 10px 10px 0;
+  @media (max-width: 811px) {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
 `;
 
 export const OverlayDiv = styled.div`
@@ -16,6 +26,10 @@ export const OverlayDiv = styled.div`
   width: 100%;
   height: 100%;
   top: 0;
+  border-radius: 0 10px 10px 0;
+  @media (max-width: 811px) {
+    border-radius: 10px 10px 0 0;
+  }
 `;
 
 export const StyledSection = styled.section`
@@ -43,13 +57,22 @@ export const FlexDiv = styled.div`
     justify-content: flex-start;
     width: 70%;
     text-align: left;
-    gap: 2em;`;
+    gap: 2em;
+    @media (max-width: 811px) {
+    flex-direction: column;
+    text-align: center;
+    gap: 0;
+  }`;
   }}
 `;
 
 export const StyledH1 = styled.h1`
   font-size: 2rem;
   color: #fefffd;
+  @media (max-width: 811px) {
+    text-align: center;
+    font-size: 1.5rem;
+  }
 `;
 
 export const StyledSpan = styled.span`
@@ -59,6 +82,9 @@ export const StyledSpan = styled.span`
 export const NoMarginH2 = styled.h2`
   margin: 2em 0 0 0;
   color: white;
+  @media (max-width: 811px) {
+    margin: 0.5em;
+  }
 `;
 
 export const NoMarginP = styled.p`
@@ -68,6 +94,10 @@ export const NoMarginP = styled.p`
 
 export const StyledP = styled.p`
   color: #b0aec6;
+  @media (max-width: 811px) {
+    text-align: center;
+    font-size: 0.9rem;
+  }
 `;
 
 export const ImageContainerDiv = styled.div`
